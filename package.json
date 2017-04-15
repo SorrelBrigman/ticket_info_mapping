@@ -1,0 +1,23 @@
+{
+  "name": "ticket_info_mapping",
+  "version": "1.0.0",
+  "description": "Creating a program that could parse ticket information into a consistent format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorrelBrigman/ticket_info_mapping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SorrelBrigman/ticket_info_mapping/issues"
+  },
+  "homepage": "https://github.com/SorrelBrigman/ticket_info_mapping#readme",
+  "dependencies": {
+    "json-stringify-pretty-compact": "^1.0.3",
+    "xlsx-to-json": "^0.2.4"
+  }
+}
