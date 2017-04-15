@@ -7,7 +7,26 @@ const addresses = require('../../json/output.json');
 
 
 
+//TO DO
+  //create user form where user is able to put in the current file path
+    //user presses button that loads Xl file into json
+  //create user form where user can input what names the current spread has for the values in the database
+  //after user input, have a button that runs the insert
+  //make the user experience and design as logical and simple as possible
 
+  //have the system look at values in table and suggest mapping values
+    //auto fill the suggested mappings
+    //ask for user confirmation
+    //if not correct, allow user to enter the correct value
+      //store user input as other optional mapping values to look at for future uses
+    //after confirmation (and possible user update) insert data
+
+
+  //phase 2
+  //duplicate system for the other tables in the sweep-o-matic system.
+
+  //phase 3
+  //have all systems customizable (any value to any value)
 
 
 

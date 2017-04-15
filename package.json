@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/SorrelBrigman/ticket_info_mapping#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "bookshelf": "^0.10.3",
+    "express": "^4.15.2",
     "json-stringify-pretty-compact": "^1.0.3",
     "knex": "^0.12.9",
     "pg": "^6.1.5",
