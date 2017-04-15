@@ -5,9 +5,7 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'addresses',
     },
       migrations : {
         directory: __dirname + '/db/migrations'
@@ -20,7 +18,7 @@ module.exports = {
   staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db'
+      database: 'addresses'
     },
     pool: {
       min: 2,
@@ -34,7 +32,7 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db'
+      database: 'addresses'
     },
     pool: {
       min: 2,
