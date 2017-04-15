@@ -11,26 +11,23 @@ const addresses = require('../../json/output.json');
 
 
 
-// const addressPromises = addresses.map(
-//   ({['Address 1'], ['Address 2'], ['Address 3'], City, ['State/Province'], ['Post Code'], Country}) => {
+    let address1 = "Address 1";
+    let address2 = "Address 2";
+    let address3 = "Address 3";
+    let city = "City"
+    let stateProv = "State/Province";
+    let code = "Post Code";
+    let country = "Country"
 
-//     let address1 = "Address 1";
-//     let address2 = "Address 2";
-//     let address3 = "Address 3";
-//     let stateProv = "State/Province";
-//     let code = "Post Code";
 
-//     console.log("in here!!!")
-//   //return knex('addresses').insert({street: address1, city: City, state: stateProv, zip: code, country: Country});
-// });
 
 const addressPromises = addresses.map((obj) => {
   let newObj = {};
-  newObj.street = obj['Address 1'] + obj['Address 2'] + obj['Address 3'];
-  newObj.city = obj.City;
-  newObj.state = obj['State/Province'];
-  newObj.zip = obj['Post Code'];
-  newObj.country = obj.Country;
+  newObj.street = obj[address1] + obj[address2] + obj[address3];
+  newObj.city = obj[city];
+  newObj.state = obj[stateProv];
+  newObj.zip = obj[code];
+  newObj.country = obj[country];
   // return newObj;
   return knex('addresses').insert(newObj);
 
